@@ -1,0 +1,6 @@
+*.bundle.*
+lib/
+node_modules/
+.ipynb_checkpoints
+yarn.lock
+tsconfig.tsbuildinfo
