@@ -55,7 +55,7 @@ class APODWidget extends Widget {
   /**
    * Handle update requests for the widget.
    */
-  async onUpdateRequest(msg: Message): Promise<void> {
+  async onActivateRequest(msg: Message): Promise<void> {
 
     const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${this.randomDate()}`);
 
