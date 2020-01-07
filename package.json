@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@lumino/widgets": "^1.9.7"
+  }
+}
