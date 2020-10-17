@@ -1,6 +1,6 @@
 # jupyterlab_apod
 
-![Github Actions Status](https://github.com/my_name/jupyterlab_apod/workflows/Build/badge.svg)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/my_name/jupyterlab_apod/master?urlpath=lab)
+![Github Actions Status](https://github.com/my_name/jupyterlab_apod.git/workflows/Build/badge.svg)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/my_name/jupyterlab_apod.git/master?urlpath=lab)
 
 Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
 
@@ -33,16 +33,16 @@ The `jlpm` command is JupyterLab's pinned version of
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
-jupyter labextension develop .
+jupyter labextension develop . --overwrite
 # Rebuild extension Typescript source after making changes
-jlpm build
+jlpm run build
 ```
 
 You can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
 
 ```bash
 # Watch the source directory in one terminal, automatically rebuilding when needed
-jlpm watch
+jlpm run watch
 # Run JupyterLab in another terminal
 jupyter lab
 ```
