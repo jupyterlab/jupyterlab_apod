@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.0.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: your@name.org
+author_name: Your Name
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab_apod
+mimetype: ''
+mimetype_name: ''
+project_short_description: Show a random NASA Astronomy Picture of the Day in a JupyterLab
+    panel.
+python_name: jupyterlab_apod
+repository: https://github.com/github_username/jupyterlab_apod
+test: true
+viewer_name: ''
+
