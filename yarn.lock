@@ -7580,8 +7580,10 @@ __metadata:
   resolution: "jupyterlab_apod@workspace:."
   dependencies:
     "@jupyterlab/application": ^4.0.0-beta.0
+    "@jupyterlab/apputils": ^4.0.0-beta.0
     "@jupyterlab/builder": ^4.0.0-beta.0
     "@jupyterlab/testutils": ^4.0.0-beta.0
+    "@lumino/widgets": ^2.0.1
     "@types/jest": ^29.2.0
     "@types/json-schema": ^7.0.11
     "@types/react": ^18.0.26
